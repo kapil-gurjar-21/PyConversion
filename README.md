@@ -1,8 +1,8 @@
-# PROJECT NAME ---->
+## PROJECT NAME 
 
    Pyconversion.
 
-#  PROJ DESCRIPTION ---->
+## DESCRIPTION 
   
    This project  is all about conversion ,
    
@@ -10,17 +10,17 @@
                                (2) Documents.
                                (3) videos.
 
-#  Apps in Pyconversion ---->
+##  Apps in Pyconversion 
 
    We have 3 apps in Pyconversion proj - (1) Currency.
                                          (2) docum. 
                                          (3) videocon.
 
-   ## Currency ----) 
+   ## Currency
                  
                  In Currency we offer 10 country currencies conversion.
 
-   ## Document ----)
+   ## Document
         
                   In Document we offer document conversion :--- (1) pdf to docs.
                                                                 (2) pdf to html.
@@ -28,16 +28,13 @@
                                                                 (4) html to docs.
                                                                 (5) docs to html.
 
-   ## videocon ----)
+   ## videocon
                
                   In video conversion we offer :--- (1) VIDEO to GIF.
                                                     (2) Extracting audio from video.
                                                     (3) Extracting frames from video.
-#  Virtual Environment ---->
-   
-   (dj_conv) is a environment for this project.
 
-#  Required Packages ---->  
+#  Required Packages
 
    For Video conversion --> (1) pip install MoviePy.( Videofileclip comes from this package )
                             (2) open Cv2 (pip install opencv-python)
@@ -51,7 +48,8 @@
                                 (2) aspose.words as aw   
                                 (3) htmldocx
                                 (4) pdfkit
-# COMMANDS ---->
+#### Note:- All other Packages are listed in requirements.txt file                                
+# COMMANDS
   
     (1) python3 -m venv(env_name)                // for creating new environ
     (2) django -admin startproject projname     // for starting a new project
@@ -64,13 +62,13 @@
     (9) pip install -r requirements.txt  // to check requirements
    (10) $ celery -A picha worker -l info \\ celery starting command
 
-   ## Celery starting commands ----) 
+   ## Celery starting commands
 
       celery -A PyConversion worker -l INFO
         
-   ## Mail Sending ----)
+   ## Mail Sending
       
-      BY (sendinblue) integration.
+      BY sendinblue(Now it is Brevo) integration.
 
       -- Email API -->      Create and send transactional emails.
                             Batch send customized emails.
@@ -83,5 +81,4 @@
    
    
 
-                                            
-# PyConversion
+
